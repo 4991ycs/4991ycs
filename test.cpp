@@ -2,6 +2,8 @@
 #include <iostream>
 double test(double x) { return x * x; }
 
+static double x=0.2;
+
 class class1 {
 private:
   double x;
